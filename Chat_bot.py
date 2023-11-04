@@ -64,7 +64,7 @@ def burmese_chatbot():
     user_input = st.text_input("You:")
     
     if user_input:
-        if user_input.lower() == "bye"or "တာ့တာ":
+        if user_input.lower() == "bye":
             st.write("Chatbot: Goodbye!") 
         else:
             response = chatbot.respond(user_input)
